@@ -1,0 +1,28 @@
+button{
+    width: 150px;
+    height: 30px;
+    margin-left: 10px;
+    border:  0px solid white;
+    background-color: tomato;
+    color: white;
+    margin-top: 10px;
+    font-size: 15px;
+}
+#Maindiv{
+    display: block;
+}
+#Registration{
+    display: none;
+}
+#login{
+    display: none;
+}
+#menu{
+    display: none;
+}
+#courseDetails{
+    display: none;
+}
+#enrollDetails{
+    display: none;
+}

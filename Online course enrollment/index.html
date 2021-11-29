@@ -1,0 +1,48 @@
+<html>
+    <head>
+      <link rel="Stylesheet" href="Stylesheet/course.css">
+      <script type="text/javascript" src="Script/course.js"></script>
+    </head>
+    <body>
+     <div id="Maindiv">
+         <h1>Online course Enrollment</h1>
+         <button type="button" onclick="newuser()">User registration</button>
+         <button type="button" onclick="logindetails()">Log In</button>
+     </div><br><br>
+     <div id="Registration">
+         <h4>User details</h4>
+         <label>User Name: </label><input type="text" name="user name" placeholder="Enter your name"><br><br>
+         <label>Age:</label><input type="text" name="user age" placeholder="Enter your age"><br><br>
+         <lable>phone number: </lable><input type="text" name="phone number" placeholder="Enter your phone number"><br><br>
+         <button type="button" onclick="uservalidate()" id="submit">Submit</button>
+     </div><br><br>
+     <div id="login">
+         <h4>Login details</h4>
+         <lable>User ID: </lable><input type="text" name="userID" placeholder="Enter user ID"><br><br>
+         <button type="button" onclick="login()">Login</button>
+     </div><br><br>
+     <div id="menu">
+         <h5>please choose your option</h5>
+         <button type="button" onclick="coursedetails()">Avilable courses</button>
+         <button type="button" onclick="Enrolldetails()">Enrolled courses</button>
+     </div><br><br>
+     <div id="courseDetails">
+         <h5>select your course name</h5>
+         <select>
+             <option>C#(C sharp)</option>
+             <option>HTML</option>
+             <option>javascript</option>
+             <option>Typescript</option>
+             <option>Python</option>
+         </select> 
+         <label>Required days</label><input type="number" name="required days"><br><br>
+         <button type="button" onclick="Enroll()">Enroll</button>
+
+     </div><br><br>
+     <div id="enrollDetails">
+         <label>list of courses:</label><br><textarea placeholder="List of subjects"></textarea><br><br>
+         <label>Total number of days</label><input type="text" >
+     </div>
+
+    </body>
+</html>
